@@ -1,0 +1,40 @@
+*{
+    font-family: "Anuphan", serif;
+}
+.carousel-item{
+    height: 500px;
+}
+
+.carousel-image-1{
+    background-image: url(https://images.collectingcars.com/014163/MMP-220829-1.jpg?w=1263&fit=fillmax&crop=edges&auto=format,compress&cs=srgb&q=85);
+    background-size: cover;
+}
+
+.carousel-image-2{
+    background-image: url(https://static.wikia.nocookie.net/initiald/images/0/0d/Subaru_Impreza_GC8F_real.jpg/revision/latest?cb=20200703234451);
+    background-size: cover;
+}
+
+.carousel-image-3{
+    background-image: url(https://www.toyotanont.com/public/uploads/news/aea1f2631e7b59f806b0d3e9be179488.jpg);
+    background-size: cover;
+}
+
+#about{
+    min-height: 200px;
+    position: relative;
+    background-image: url(https://architectelevator.com/assets/img/initiald_card.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+}
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: cyan;
+    width: 100%;
+    height: 100%;
+}

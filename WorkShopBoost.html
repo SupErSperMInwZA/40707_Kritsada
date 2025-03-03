@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UV-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BiddHode</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- สร้างเมนู -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">BiddHode</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarl">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div id="navbar1" class="collapse navbar-collapse">
+             <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#service" class="nav-link">บริการ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">ติดต่องาน</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- การสร้าง Slider-->
+    <section id="slider">
+        <div class="carousel slide" data-bs-ride="carousb0 xd
+        32f nel" id="mySlider">
+            <ol class="carousel-indicators">
+                <button data-bs-target="#mySlider" data-bs-slide-to="0" class="active"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="1"></button>
+                <button data-bs-target="#mySlider" data-bs-slide-to="2"></button>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item carousel-image-1 active">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Nissan Skyline GTR R34 V-Spec</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis facere totam perspiciatis officia ab minus enim error ipsum nisi, id temporibus laudantium consequatur alias consectetur quaerat accusantium qui? Nesciunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-2">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Subaru Impreza WRX STI GC8F</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis facere totam perspiciatis officia ab minus enim error ipsum nisi, id temporibus laudantium consequatur alias consectetur quaerat accusantium qui? Nesciunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item carousel-image-3">
+                    <div class="container">
+                        <div class="carousel-caption d-none d-sm-block">
+                            <h1 class="display-3">Toyota Sprinter Trueno AE86</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis facere totam perspiciatis officia ab minus enim error ipsum nisi, id temporibus laudantium consequatur alias consectetur quaerat accusantium qui? Nesciunt?</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" data-bs-target="#mySlider" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-target="#mySlider" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!--Service Section-->
+    <section id="service">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa-solid fa-gauge-high fa-2x mb-2"></i>
+                    <h3>ไกด์นำดริฟท์</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, rem deserunt sed, suscipit sit illo quia enim, quisquam ullam odio sapiente perspiciatis qui doloribus aliquam. Pariatur dolor culpa aspernatur debitis!</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa-solid fa-bolt fa-2x mb-2"></i>
+                    <h3>รับจูนรถ</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, rem deserunt sed, suscipit sit illo quia enim, quisquam ullam odio sapiente perspiciatis qui doloribus aliquam. Pariatur dolor culpa aspernatur debitis!</p>
+                </div>
+                <div class="col-md-4 text-center mb-4">
+                    <i class="fa-solid fa-hammer fa-2x mb-2"></i>
+                    <h3>แต่งรถ</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, rem deserunt sed, suscipit sit illo quia enim, quisquam ullam odio sapiente perspiciatis qui doloribus aliquam. Pariatur dolor culpa aspernatur debitis!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- about -->
+    <section id="about" class="p-5">
+        <div class="dark-overray">
+            <div class="row">
+                <div class="container pt-5">
+                    <h1>เกี่ยวกับเรา</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, amet nostrum ducimus ipsa fugiat ipsam minima quia repellendus modi placeat esse quibusdam corporis assumenda maxime odio quaerat, beatae dicta cum!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallary -->
+    <section id="gallary" class="p-5">
+        <div class="container">
+            <h1 class="text-center">ผลงานของเรา</h1>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic vitae beatae corporis inventore delectus eum obcaecati est quibusdam ex ratione modi id voluptatem temporibus, unde repudiandae nesciunt et quia perferendis.</p>
+            <!-- Image -->
+             <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="https://wallpapercrafter.com/sizes/1920x1080/109389-sports-car-road-rally-cars-Rallye-Subaru-Impreza-WRX.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://media.carsandbids.com/cdn-cgi/image/width=2080,quality=70/da4b9237bacccdf19c0760cab7aec4a8359010b0/photos/KPLJWa27-5I0Zx9EbPT2-2-5-UkftLCYi.jpg?t=168263797193" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://c4.wallpaperflare.com/wallpaper/146/875/663/toyota-ae86-car-drift-video-game-car-landscape-hd-wallpaper-preview.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://pm1.aminoapps.com/7374/4140a648ddbc3559544612e83f090a5f65bff1ear1-605-605v2_uhq.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://static.jdmexport.com/wp-content/uploads/sites/9/2022/09/08074852/What-Makes-The-Nissan-Silvia-A-Great-Drift-Car.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.ytimg.com/vi/DmZWvWARuxE/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAQy293HMVGY3ItuQt6xSz88OQ93A" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.redd.it/db35wrpzs8631.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://i.ytimg.com/vi/5jZPsmwfJ_E/maxresdefault.jpg" class="img-fluid">
+                </div>
+                <div class="col-md-4">
+                    <img src="https://venteautoprestige.com/wp-content/uploads/2024/03/Toyota-Supra-MK4-blanche-trois-quarts-avant.webp" class="img-fluid">
+                </div>
+             </div>
+        </div>
+    </section>
+    <!-- Footer -->
+     <footer class="text-center p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <p>Copyright &copy; Biddhode Official 2025</p>
+
+                </div>
+            </div>
+        </div>
+     </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">ติดต่องาน</h5>
+                    <button class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label>อีเมล</label>
+                            <input type="email" placeholder="ป้อนอีเมลของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>หัวข้อ</label>
+                            <input type="email" placeholder="เสนอหัวข้องานของคุณ" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>รายละเอียด</label>
+                            <textarea id="" cols="30" rows="10" class="form-control"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                    <button class="btn btn-success">ส่งข้อมูล</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
